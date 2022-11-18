@@ -1,0 +1,87 @@
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #6BBFF8;
+    padding: 8px;
+   
+  }
+  
+  #customers tr:nth-child(even){background-color: #BDDBEC}
+  
+  #customers tr:hover {background-color: #77D679;}
+  
+  #customers tr {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:#4984E3;
+    color: Black;
+  }
+
+ 
+
+
+/*******************************/
+/******* Page Header CSS *******/
+/*******************************/
+.page-header {
+    position: relative;
+    margin-bottom: 45px;
+    padding: 150px 0 90px 0;
+    text-align: center;
+    background: pink
+    
+    
+}
+
+.page-header h2 {
+    position: relative;
+    color: #343148;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.page-header a {
+    position: relative;
+    padding: 0 12px;
+    font-size: 22px;
+    color: #343148;
+}
+
+.page-header a:hover {
+    color: #ffffff;
+}
+
+.page-header a::after {
+    position: absolute;
+    content: "/";
+    width: 8px;
+    height: 8px;
+    top: -2px;
+    right: -7px;
+    text-align: center;
+    color: #343148;
+}
+
+.page-header a:last-child::after {
+    display: none;
+}
+
+@media (max-width: 767.98px) {
+    .page-header h2 {
+        font-size: 35px;
+    }
+    
+    .page-header a {
+        font-size: 18px;
+    }
+}
+
+
+
+
+

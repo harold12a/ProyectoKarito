@@ -1846,7 +1846,7 @@ a:focus {
 
 .sidebar .category-widget ul li span {
     display: inline-block;
-    float: right;
+   /* float:right;*/
 }
 
 .sidebar .sidebar-widget .tag-widget {
@@ -1897,7 +1897,7 @@ a:focus {
 
 .footer .container-fluid {
     padding: 90px 0 0 0;
-    background: linear-gradient(rgba(204, 6, 72, 0.9), rgba(52, 49, 72, .9)), url(../assets/img/eyebrow-lift.jpg);
+   background: linear-gradient(rgba(204, 6, 72, 0.9), rgba(52, 49, 72, .9)), url(../assets/img/eyebrow-lift.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
