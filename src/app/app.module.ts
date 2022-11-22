@@ -10,6 +10,7 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { ContabilidadComponent } from './contabilidad/contabilidad.component';
 import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
+import { IngresoComponent } from './ingreso/ingreso.component';
 
 
 const appRoutes: Routes = [
@@ -19,6 +20,7 @@ const appRoutes: Routes = [
   {path: 'Servicios', component: ServiciosComponent},
   {path: 'Contacto', component: ContactoComponent},
   {path: 'Contabilidad', component: ContabilidadComponent},
+  {path: 'Ingreso', component: IngresoComponent},
 ]
 
 @NgModule({
@@ -29,7 +31,8 @@ const appRoutes: Routes = [
     ProductosComponent,
     SedesComponent,
     ContactoComponent,
-    ContabilidadComponent
+    ContabilidadComponent,
+    IngresoComponent
   ],
   imports: [
     BrowserModule,

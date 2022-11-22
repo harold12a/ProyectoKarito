@@ -298,6 +298,7 @@ a:focus {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    font-family: 'Dancing Script', cursive;
 }
 
 .hero .hero-text h1 {
@@ -1897,7 +1898,7 @@ a:focus {
 
 .footer .container-fluid {
     padding: 90px 0 0 0;
- background: linear-gradient(rgba(204, 6, 72, 0.9), rgba(52, 49, 72, .9)), url(../../assets/img/eyebrow-lift.jpg);
+    background: linear-gradient(rgba(204, 6, 72, 0.9), rgba(52, 49, 72, .9)), url(../../assets/img/eyebrow-lift.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1918,6 +1919,7 @@ a:focus {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 45px;
+    font-family: 'Dancing Script', cursive;
 }
 
 .footer .footer-info .footer-logo span {
